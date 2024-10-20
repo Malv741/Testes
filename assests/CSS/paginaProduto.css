@@ -49,11 +49,13 @@ body {
 }
 
 .botaoCompra {
-    margin-left: 11rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2rem;
     background-color: #B6D3A5;
     border: none;
     border-radius: 5px;
-    width: 8rem;
     height: 2rem;
     font-family: 'Roboto', sans-serif;
 
@@ -82,4 +84,13 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
+}
+
+a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.lista {
+    text-align: center;
 }
