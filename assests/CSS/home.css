@@ -1,0 +1,119 @@
+body {
+    overflow-x: hidden;
+}
+
+/* HEADER */
+.cabecalho {
+    width: 75%;
+    border-radius:15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.371);
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 4rem;
+}
+
+.user {
+    margin-right: 2rem;
+}
+
+/* MAIN */
+.campoCarrousel {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3rem;
+}
+
+.textoTipo {
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.campo1, .campo2, .campo3, .campo4, .campo5 {
+    width: 25%;
+    text-align: center;
+}
+
+.campo1:hover, .campo2:hover, .campo3:hover, .campo4:hover, .campo5:hover {
+    background-color: aquamarine;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 0.1rem;
+    }
+
+}
+
+.secaoVenda {
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto {
+    margin-left: 2rem;
+}
+.loja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.imagemLoja {
+    width: 20%;
+    max-width: 5rem;
+    height: 20%;
+    margin-right: 1rem;
+}
+
+.camposTexto {
+    width: 50%;
+}
+
+.botaoVerDetalhes {
+    width: 30%;
+    max-width: 10rem;
+    height: 10%;
+    margin-right: 1rem;
+    background-color: #EE9B57;
+    border: none;
+    border-radius: 5px;
+}
+
+/*Rodape*/
+.rodape {
+    width: 75%;
+    background-color: #FFFAFA;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.371);
+    display: flex;
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divRodape {
+    margin-top: 2rem;
+}
+
+.textoRodape {
+    text-align: center;
+}
