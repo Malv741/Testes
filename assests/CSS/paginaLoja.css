@@ -20,13 +20,16 @@ body {
     height: 8rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .tituloLoja {
+    margin-top: 3rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .textoLoja {
@@ -34,6 +37,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .secaoProdutos {
@@ -58,13 +63,14 @@ body {
     height: 5rem;
 }
 
-.campoTexto {
-}
-
 .botaoComprar {
     background-color: #B6D3A5;
     border: none;
     border-radius: 5px;
     width: 8rem;
     height: 2rem;
+}
+
+.seta {
+    margin-left: 1rem;
 }
